@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ListContainer from './containers/ListContainer';
+import Titulo from './Titulo';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ListContainer/>
+    <Titulo/>
   </React.StrictMode>,
   document.getElementById('root')
 );
